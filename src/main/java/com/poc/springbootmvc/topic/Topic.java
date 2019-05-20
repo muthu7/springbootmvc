@@ -2,7 +2,7 @@ package com.poc.springbootmvc.topic;
 
 public class Topic {
 
-    private int id;
+    private String id;
     private String name;
     private String desc;
 
@@ -10,13 +10,13 @@ public class Topic {
 
     }
 
-    public Topic(int id, String name, String desc) {
+    public Topic(String id, String name, String desc) {
         this.id = id;
         this.name = name;
         this.desc = desc;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -28,7 +28,7 @@ public class Topic {
         return desc;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
